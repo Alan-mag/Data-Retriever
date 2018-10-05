@@ -1,0 +1,25 @@
+.new-task-container {
+  margin-left: 40px;
+  width: 300px;
+}
+
+.new-form-task TextField {
+  // left: 0 !important;
+}
+
+.text-fields {
+  // margin-left: -40px !important;
+  // input {
+  //   margin-left: -40px !important;
+  // }
+  div {
+    left: 0px !important;
+  }
+  .MuiFormControl-root-33 {
+    left: 0px !important;
+  }
+  
+  .MuiInput {
+    left: 0px !important;
+  }
+}

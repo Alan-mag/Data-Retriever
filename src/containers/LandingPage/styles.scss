@@ -1,0 +1,65 @@
+$grey500: #9E9E9E;
+
+.login-container {
+  min-width: 320px;
+  max-width:400px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.paper-container {
+  padding: 20px;
+  overflow: auto;
+}
+
+.buttons-div {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flat-button {
+  color: $grey500 !important;
+}
+
+.check-remember {
+  float: left;
+  max-width: 180px;
+  padding-top: 5px;
+  .label {
+    color: $grey500 !important;
+  }
+  .icon {
+    color: $grey500 !important;
+    border-color: $grey500 !important;
+    fill: $grey500 !important;
+  }
+}
+
+.login-btn {
+  float: right;
+}
+.btn {
+  background: #4f81e9;
+  color: white;
+  padding: 7px;
+  border-radius: 2px;
+  margin: 2px;
+  font-size: 13px;
+}
+
+.btn-facebook {
+  background: #4f81e9;
+}
+
+.btn-google {
+  background: #e14441;
+}
+
+.btn-span {
+  margin-left: 5px;
+}

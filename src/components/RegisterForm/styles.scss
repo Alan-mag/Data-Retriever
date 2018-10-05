@@ -1,0 +1,20 @@
+$grey500: #9E9E9E;
+
+.flat-button {
+  color: $grey500 !important;
+}
+
+.registration-form {
+  width: 375px !important;
+  margin-left: 25px;
+
+  .form-buttons {
+    display: block;
+  }
+}
+
+.registration-window {
+  div > div {
+    width: 375px !important;
+  }
+}
