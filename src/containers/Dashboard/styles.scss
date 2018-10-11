@@ -1,5 +1,5 @@
 #download-btn {
-  border: 10px;
+  // border: 10px;
   box-sizing: border-box;
   display: inline-block;
   font-family: Roboto, sans-serif;
@@ -19,4 +19,5 @@
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  border: 1px solid #7782883d !important;
 }
