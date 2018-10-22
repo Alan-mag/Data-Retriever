@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Paper from 'material-ui/Paper';
 import {white, pink500} from 'material-ui/styles/colors';
-import {BarChart, Bar, ResponsiveContainer, XAxis, Tooltip} from 'recharts';
 // import getMonthlyInteractions from '../../../logics/interactionData';
 
 import './style.scss';

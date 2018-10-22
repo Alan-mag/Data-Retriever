@@ -33,7 +33,7 @@ const SearchBox = () => {
       cursor: 'inherit',
       font: 'inherit',
       opacity: 1,
-      '-webkit-tap-highlight-color': 'rgba(0, 0, 0, 0)',
+      // '-webkit-tap-highlight-color': 'rgba(0, 0, 0, 0)',
       height: '100',
       border: '1px solid #80808038',
       borderRadius: 2,

@@ -1,12 +1,8 @@
-// require('dotenv').load();
 const path = require('path');
 const express = require('express');
 const app = express();
 const publicPath = path.join(__dirname, './', 'build');
-const port = process.env.PORT || 8080;
-const cron = require('node-cron');
-const moment = require('moment');
-const admin = require('firebase-admin');
+const port = process.env.PORT || 5000; // doesn't work for some reason
 
 
 app.use(express.static(publicPath));
