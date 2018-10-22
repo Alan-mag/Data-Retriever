@@ -50,6 +50,7 @@ const styles  = {
 class Dashboard extends React.Component {
   constructor(props) {
     super(props)
+    this.handleAllDownload = this.handleAllDownload.bind(this);
     this.state = {
       error: null,
       checkedA: true,
@@ -77,6 +78,12 @@ class Dashboard extends React.Component {
     console.log(name)
     this.setState({ [name]: event.target.checked });
   };
+
+  handleAllDownload = (e) => {
+    e.preventDefault();
+    console.log('down')
+    // access db ref from blackbaud and get data
+  } 
 
 
   static getDerivedStateFromProps(nextProps, prevState) {
@@ -117,7 +124,7 @@ class Dashboard extends React.Component {
         <div className="row">
           <SearchBox></SearchBox>
           <FlatButton id="download-btn">Download Data</FlatButton>
-          <FlatButton id="download-btn">Download All Data</FlatButton>
+          <FlatButton id="download-btn" onClick={this.handleAllDownload}>Download All Data</FlatButton>
         </div>
 
         {/********* ROW *********/}

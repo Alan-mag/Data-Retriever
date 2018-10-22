@@ -10,6 +10,9 @@ import ThemeDefault from '../../theme-default';
 import Register from '../../components/RegisterForm';
 import LoginForm from '../../components/LoginForm';
 
+// oauth
+// import { actions, reducer, signin, signout } from 'react-redux-oauth2';
+
 // may move to general styles
 import './styles.scss';
 
@@ -19,6 +22,10 @@ import {startSignUp, login, startLogin} from '../../state/auth/actions';
 class LandingPage extends React.Component {
   constructor(props) {
     super(props);
+  }
+
+  componentWillMount() {
+    console.log('componentwillmount --')
   }
 
   componentWillReceiveProps(nextProps) {
